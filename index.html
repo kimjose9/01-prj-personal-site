@@ -1,11 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>My Personal Site</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <!-- Add your HTML content here -->
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alex Carter | Web Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <div class="brand">Joseph Kim</div>
+        <nav class="main-nav" aria-label="Main Navigation">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#inspiration">Inspiration</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-content">
+          <div class="hero-text">
+            <p class="eyebrow">Web Developer Student</p>
+            <h1>Building creative digital experiences.</h1>
+            <p class="lead">
+              I am a college web development student creating clean, user-friendly
+              websites that combine design, coding, and problem-solving.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#projects">View Projects</a>
+              <a class="button secondary" href="#contact">Contact Me</a>
+            </div>
+            <ul class="mini-stats" aria-label="Quick stats">
+              <li><strong>2+</strong><span>Years Learning</span></li>
+              <li><strong>8</strong><span>Projects</span></li>
+              <li><strong>100%</strong><span>Creative Focus</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="photo-demo section">
+        <div class="container">
+          <div class="photo-box">
+            <img src="https://images.unsplash.com/photo-1504593811423-6dd665756598?auto=format&fit=crop&w=900&q=80" alt="Chinese man in a suit" />
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">About Me</p>
+            <h2>Designing simple, modern, and useful websites.</h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-card">
+              <h3>My Story</h3>
+              <p>
+                I am studying web development and learning how to turn ideas into
+                websites that look polished and feel easy to use. I enjoy building
+                layouts, writing clean code, and improving my design skills.
+              </p>
+            </div>
+
+            <div class="about-card">
+              <h3>What I Focus On</h3>
+              <p>
+                I focus on responsive design, accessibility, readable code, and
+                user experience. I want every project to feel modern, welcoming,
+                and easy to navigate.
+              </p>
+            </div>
+
+            <div class="about-card">
+              <h3>My Goal</h3>
+              <p>
+                My goal is to build a strong portfolio of projects that show my
+                growth as a developer and my ability to create websites people can
+                enjoy using.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Portfolio</p>
+            <h2>Featured projects.</h2>
+          </div>
+
+          <div class="project-list">
+            <article class="project-card">
+              <div class="project-image project-one"></div>
+              <div class="project-content">
+                <span class="tag">Website Redesign</span>
+                <h3>American Express Style Landing Page</h3>
+                <p>
+                  I plan to redesign and improve a premium business website inspired
+                  by American Express, focusing on clean messaging, trust-building
+                  content, and a polished user experience for financial services.
+                </p>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-image project-two"></div>
+              <div class="project-content">
+                <span class="tag">User Data Project</span>
+                <h3>Personal Brand + Data Story</h3>
+                <p>
+                  In class, we created projects focused on user data and how it can
+                  inform design decisions. This project explores how personal brand
+                  visuals can be shaped by meaningful user insights and clear data
+                  storytelling.
+                </p>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-image project-three"></div>
+              <div class="project-content">
+                <span class="tag">Website Editing</span>
+                <h3>Inspect Element Experience</h3>
+                <p>
+                  I have experience using Inspect Element to explore and edit website
+                  layouts, test design changes, and understand how HTML and CSS work
+                  together to improve user experience.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="inspiration" class="inspiration section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Design Inspiration</p>
+            <h2>Websites I like and how I want to be similar.</h2>
+          </div>
+
+          <div class="inspiration-grid">
+            <div class="inspiration-card">
+              <div class="brand-logo spotify-logo" aria-label="Spotify logo">S</div>
+              <h3>Spotify</h3>
+              <a href="https://www.spotify.com/" target="_blank" rel="noreferrer">
+                spotify.com
+              </a>
+              <p>
+                I like Spotify’s bold branding, clean layout, and easy-to-scan
+                sections. I want my portfolio to feel modern and engaging while
+                staying simple and user-friendly.
+              </p>
+            </div>
+
+            <div class="inspiration-card">
+              <div class="brand-logo apple-logo" aria-label="Apple logo"></div>
+              <h3>Apple</h3>
+              <a href="https://www.apple.com/" target="_blank" rel="noreferrer">
+                apple.com
+              </a>
+              <p>
+                I admire Apple’s minimal design, premium typography, and polished
+                product presentation. I want my site to have that same sense of
+                quality and clarity without feeling too crowded.
+              </p>
+            </div>
+
+            <div class="inspiration-card">
+              <div class="brand-logo airbnb-logo" aria-label="Airbnb logo">A</div>
+              <h3>Airbnb</h3>
+              <a href="https://www.airbnb.com/" target="_blank" rel="noreferrer">
+                airbnb.com
+              </a>
+              <p>
+                Airbnb’s site makes information feel approachable and visually warm.
+                I want to combine that friendly, welcoming style with a modern,
+                professional presentation for my own portfolio.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section">
+        <div class="container contact-box">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s build something great together.</h2>
+          </div>
+          <a class="button primary" href="mailto:kimjose9@msu.edu">kimjose9@msu.edu</a>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
