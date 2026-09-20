@@ -2,10 +2,144 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Personal Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The personal portfolio of Joseph Kim, a Korean designer and developer creating thoughtful digital experiences.">
+  <title>Joseph Kim | Korean Designer &amp; Developer</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Add your HTML content here -->
+  <!-- The header keeps the site name and navigation together. -->
+  <header class="site-header">
+    <a class="site-name" href="#top">Joseph Kim</a>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#goals">Goals</a>
+      <a href="#inspiration">Inspiration</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- The hero is the first thing visitors see. -->
+    <section class="hero-section">
+      <img class="profile-picture" src="img/joseph-kim.svg" alt="Illustrated headshot of Joseph Kim, a Korean designer and developer">
+      <p class="eyebrow">Designer · Developer · Creative thinker</p>
+      <h1>Building thoughtful digital experiences.</h1>
+      <p class="hero-text">I’m Joseph Kim, a designer and developer who turns ideas into clear, useful, and memorable websites.</p>
+      <div class="hero-actions">
+        <a class="button" href="#projects">View Projects</a>
+        <a class="button button-outline" href="#contact">Contact Me</a>
+      </div>
+    </section>
+
+    <!-- This section introduces the site's purpose and uses the laptop image. -->
+    <section class="about-section content-section" id="about">
+      <div class="about-image">
+        <img src="img/laptop.jpg" alt="A laptop glowing on a desk">
+      </div>
+      <div class="about-copy">
+        <p class="eyebrow">About Joseph</p>
+        <h2>Curious by nature, thoughtful by design.</h2>
+        <p>I’m Joseph Kim, a front-end developer who enjoys making the web feel welcoming and easy to use. I combine clean code, strong visual ideas, and careful attention to detail to create work that helps people.</p>
+        <p>When I’m not designing or coding, I’m learning from other makers and looking for new ways to turn everyday problems into simple digital solutions.</p>
+        <a class="text-link" href="#inspiration">What inspires me <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+    <!-- Projects give visitors a clear view of Joseph's recent work. -->
+    <section class="projects-section content-section" id="projects">
+      <div class="project-list">
+        <article class="project-card">
+          <img src="img/project-redesign.png" alt="Laptop displaying a business analytics dashboard">
+          <div class="project-card-content">
+            <span class="project-label">Website redesign</span>
+            <h3>American Express Style Landing Page</h3>
+            <p>I plan to redesign and improve a premium business website inspired by American Express, focusing on clean messaging, trust-building content, and a polished user experience for financial services.</p>
+          </div>
+        </article>
+        <article class="project-card">
+          <img src="img/project-data.png" alt="Modern office hallway with glass meeting rooms">
+          <div class="project-card-content">
+            <span class="project-label">User data project</span>
+            <h3>Personal Brand + Data Story</h3>
+            <p>In class, we created projects focused on user data and how it can inform design decisions. This project explores how personal brand visuals can be shaped by meaningful user insights and clear data storytelling.</p>
+          </div>
+        </article>
+        <article class="project-card">
+          <img src="img/project-editing.png" alt="Team collaborating around a table with sticky notes">
+          <div class="project-card-content">
+            <span class="project-label">Website editing</span>
+            <h3>Inspect Element Experience</h3>
+            <p>I have experience using Inspect Element to explore and edit website layouts, test design changes, and understand how HTML and CSS work together to improve user experience.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- This section collects the kind of work Joseph wants to keep doing. -->
+    <section class="goals-section content-section" id="goals">
+      <div class="section-heading">
+        <p class="eyebrow">What I want to do</p>
+        <h2>Make technology feel more human.</h2>
+        <p>I want to build useful, accessible experiences that help people learn, connect, and bring their ideas to life.</p>
+      </div>
+      <div class="goals-list">
+        <article>
+          <span class="goal-icon" aria-hidden="true">01</span>
+          <h3>Design with empathy</h3>
+          <p>Start with real people and real needs, then make every interaction feel clear and welcoming.</p>
+        </article>
+        <article>
+          <span class="goal-icon" aria-hidden="true">02</span>
+          <h3>Build with curiosity</h3>
+          <p>Use HTML, CSS, JavaScript, and emerging tools to turn rough ideas into working experiences.</p>
+        </article>
+        <article>
+          <span class="goal-icon" aria-hidden="true">03</span>
+          <h3>Share what I learn</h3>
+          <p>Document the process, support other makers, and make complex ideas easier for everyone to understand.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Inspiration explains the ideas and values behind the work. -->
+    <section class="inspiration-section" id="inspiration">
+      <div class="inspiration-heading">
+        <p class="eyebrow">Design inspiration</p>
+        <h2>Websites I like and how I want to be similar.</h2>
+      </div>
+      <div class="inspiration-list">
+        <article class="inspiration-card">
+          <span class="inspiration-icon spotify-icon">S</span>
+          <h3>Spotify</h3>
+          <a href="https://spotify.com" target="_blank" rel="noreferrer">spotify.com</a>
+          <p>I like Spotify’s bold branding, clean layout, and easy-to-scan sections. I want my portfolio to feel modern and engaging while staying simple and user-friendly.</p>
+        </article>
+        <article class="inspiration-card">
+          <span class="inspiration-icon apple-icon" aria-label="Apple"></span>
+          <h3>Apple</h3>
+          <a href="https://apple.com" target="_blank" rel="noreferrer">apple.com</a>
+          <p>I admire Apple’s minimal design, premium typography, and polished product presentation. I want my site to have that same sense of quality and clarity without feeling too crowded.</p>
+        </article>
+        <article class="inspiration-card">
+          <span class="inspiration-icon airbnb-icon">A</span>
+          <h3>Airbnb</h3>
+          <a href="https://airbnb.com" target="_blank" rel="noreferrer">airbnb.com</a>
+          <p>Airbnb’s site makes information feel approachable and visually warm. I want to combine that friendly, welcoming style with a modern, professional presentation for my own portfolio.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div>
+      <p class="eyebrow">Contact Joseph</p>
+      <h2>Have an idea? Let’s make it real.</h2>
+      <p class="footer-copy">Tell me a little about what you’re working on and I’ll get back to you soon.</p>
+    </div>
+    <a class="button button-light" href="mailto:joseph.kim@example.com">Contact Me</a>
+    <p class="copyright">&copy; 2025 Joseph Kim</p>
+  </footer>
 </body>
 </html>

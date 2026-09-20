@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Illustrated headshot of Joseph Kim</title>
+  <desc id="desc">A friendly illustrated Korean man with dark hair wearing a navy shirt.</desc>
+  <rect width="512" height="512" fill="#52749a"/>
+  <circle cx="256" cy="218" r="124" fill="#f0b58f"/>
+  <path d="M136 210c0-108 51-161 123-161 77 0 119 52 119 149-23-29-50-46-82-51-47-7-91 5-160 63z" fill="#20283b"/>
+  <path d="M135 211c7-76 51-126 123-126 54 0 97 30 117 86-38-34-80-40-121-31-44 9-78 31-119 71z" fill="#2c3245"/>
+  <ellipse cx="207" cy="221" rx="12" ry="8" fill="#20283b"/>
+  <ellipse cx="305" cy="221" rx="12" ry="8" fill="#20283b"/>
+  <path d="M235 272c14 10 29 10 43 0" fill="none" stroke="#b5685e" stroke-linecap="round" stroke-width="7"/>
+  <path d="M112 512c7-101 59-153 144-153s137 52 144 153" fill="#192d4b"/>
+  <path d="M196 347l60 74 60-74" fill="#f0b58f"/>
+  <path d="M217 369l39 52 39-52" fill="#fff"/>
+  <path d="M220 368l36 36 36-36" fill="none" stroke="#e9b86c" stroke-width="6"/>
+</svg>
